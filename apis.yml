@@ -1,24 +1,59 @@
 aid: hexagon-bio
 name: Hexagon Bio
-description: 'Hexagon Bio is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Hexagon Bio is a Menlo Park, California biotechnology company developing novel payloads for
+  antibody-drug conjugates (ADCs) in oncology. The company designs next-generation ADC payloads intended
+  to overcome resistance to current payloads and to expand the range of cancer indications ADCs can treat.
+  Backed by SoftBank Vision Fund, Hexagon Bio operates a therapeutics pipeline and research platform rather
+  than a public developer program: it publishes no API, SDK, or developer documentation surface. This
+  profile was surfaced as a portfolio-company lead and enriched from Hexagon Bio''s own public website
+  (company, pipeline, science/platform, and news pages).'
 url: https://raw.githubusercontent.com/api-evangelist/hexagon-bio/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hexagonbio.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://www.hexagonbio.com
+x-no-developer-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Health Tech
+- Biotechnology
+- Oncology
+- Antibody-Drug Conjugates
+- Drug Discovery
+- Therapeutics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hexagon-bio-domain-security.yml
+- type: Website
+  url: https://www.hexagonbio.com
+- type: Blog
+  url: https://www.hexagonbio.com/news/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
