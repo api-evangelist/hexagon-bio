@@ -8,6 +8,17 @@ description: 'Hexagon Bio is a Menlo Park, California biotechnology company deve
   profile was surfaced as a portfolio-company lead and enriched from Hexagon Bio''s own public website
   (company, pipeline, science/platform, and news pages).'
 url: https://raw.githubusercontent.com/api-evangelist/hexagon-bio/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
